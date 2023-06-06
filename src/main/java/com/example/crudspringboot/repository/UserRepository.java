@@ -1,4 +1,4 @@
-package com.example.crudspringboot.Repository;
+package com.example.crudspringboot.repository;
 
 import com.example.crudspringboot.model.User;
 

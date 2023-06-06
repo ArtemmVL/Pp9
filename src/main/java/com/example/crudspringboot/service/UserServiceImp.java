@@ -1,6 +1,6 @@
 package com.example.crudspringboot.service;
 
-import com.example.crudspringboot.Repository.UserRepository;
+import com.example.crudspringboot.repository.UserRepository;
 import com.example.crudspringboot.model.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
