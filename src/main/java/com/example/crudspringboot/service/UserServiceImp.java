@@ -17,7 +17,6 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    @Transactional
     public List<User> getAllUsers() {
         return userRepository.getAllUsers();
     }
@@ -41,10 +40,8 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    @Transactional
     public User getUserById(Long id) {
         return userRepository.getUserById(id);
     }
-
 
 }
